@@ -1,0 +1,8 @@
+C:\c_stuff\csharp_learn\w3schools_learning\obj\Debug\C#_learning.csproj.AssemblyReference.cache
+C:\c_stuff\csharp_learn\w3schools_learning\obj\Debug\C#_learning.csproj.SuggestedBindingRedirects.cache
+C:\c_stuff\csharp_learn\w3schools_learning\obj\Debug\C#_learning.csproj.CoreCompileInputs.cache
+C:\c_stuff\csharp_learn\w3schools_learning\bin\Debug\csharp_learning.exe.config
+C:\c_stuff\csharp_learn\w3schools_learning\bin\Debug\csharp_learning.exe
+C:\c_stuff\csharp_learn\w3schools_learning\bin\Debug\csharp_learning.pdb
+C:\c_stuff\csharp_learn\w3schools_learning\obj\Debug\csharp_learning.exe
+C:\c_stuff\csharp_learn\w3schools_learning\obj\Debug\csharp_learning.pdb
