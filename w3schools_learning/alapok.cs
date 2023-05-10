@@ -78,6 +78,9 @@ namespace magyarázatok // A 'namespace'- ek kód organizálásra és hivatkozá
     }
 }
 
+
+
+
 // Így néz ki egy konzolra kiíratás egy 'internal' osztállyal, hogy meg lehessen hívni a 'Program.cs'-ben
 
 namespace bemutatas
@@ -87,49 +90,6 @@ namespace bemutatas
         internal static void Bemutat()
         {
             Console.WriteLine("Hello világ!");
-            Console.ReadKey();
-        }
-    }
-}
-
-
-namespace valtozok
-{
-    internal class Valtozok
-    {
-        internal static void Valtozok1() 
-        {
-            /*  Egy változó deklarálása így néz ki a C#-ban:
-             *  
-             *      típus VáltozóNeve = érték;
-             *      
-             *  A leggyakrabban elő forduló adat típusok:
-             *      
-             *      - int: egész számokat tárol '-2,147,483,648' -tól '2,147,483,648' -ig
-             *      - long: egész számokat tárol '-9,223,372,036,854,775,808' -tól '9,223,372,036,854,775,808' -ig
-             *      - float: tört számokat tárol. Kb. 6-9 számjegyig.
-             *      - double: tört számokat tárol. Kb. 15-17 számjegyig.
-             *      - decimal: tört számokat tárol. Kb. 28-29 számjegyig.
-             *      - bool: 'true' vagy 'false' értéket tárol el.
-             *      - char: Egy darab karaktert tárol el. 'A' - így deklaráljuk.
-             *      - string: Karakterek sorozatát tárolja el. "Karakterek sorozata" - így deklaráljuk. 
-             */
-            int a = 1;
-            long b = 2;
-            float c = 1f / 3f;
-            double d = 1d / 3d;
-            decimal e = 1m / 3m;
-            bool f = true;
-            char g = 'a';
-            string h = "szöveg";
-            Console.WriteLine(a);
-            Console.WriteLine(b);
-            Console.WriteLine(c);
-            Console.WriteLine(d);
-            Console.WriteLine(e);
-            Console.WriteLine(f);
-            Console.WriteLine(g);
-            Console.WriteLine(h);
             Console.ReadKey();
         }
     }
