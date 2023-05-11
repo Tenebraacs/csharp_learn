@@ -26,6 +26,7 @@ namespace muveletek
              *  Ha pl.: a 'Console.WriteLine();'-ban használjuk és HÁTRA írjuk a '++'-t akkor
              *  először kiírja és utána adja hozzá azt az egyet.
              */
+
             Console.WriteLine(x & y);
             Console.WriteLine(x | y);
             Console.WriteLine(x ^ y);
@@ -51,6 +52,18 @@ namespace muveletek
              *  Az az: 1010 & 0111 = 1101
              *         (10)   (7)
              */
+
+            Console.WriteLine(x > y); // Ezek az osszehasonlito muveletek, `Boolean´ erteket fognak vissza adni
+            Console.WriteLine(x < y);
+            Console.WriteLine(x >= y);
+            Console.WriteLine(x <= y);
+            Console.WriteLine(x == y);
+            Console.WriteLine(x != y);
+
+            //  Ezeket meg lehet fokozni az ES, VAGY vagy a NEM logikai operatorokkal
+            Console.WriteLine(x > y && x > 5); // Ez csak akkor lesz 'True' ha mind a ketto oldal igaz
+            Console.WriteLine(x > y || x > 20); // Ez csak akkor lesz igaz ha legalabb az egyik oldal igaz
+            Console.WriteLine(!(x == y)); // Ez megforditja az eredmenyt (ha 'True' -> 'False' || ha 'False' -> 'True')
             Console.ReadKey();
         }
     }
